@@ -1,0 +1,26 @@
+.shortenLink {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #3b3054;
+    border-radius: 10px;
+    margin: 30px 0;
+  }
+  
+  .shortenLink input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .shortenLink button {
+    background-color: #2acfcf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

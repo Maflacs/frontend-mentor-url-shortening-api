@@ -1,0 +1,31 @@
+.boost {
+    background-color: var(--dViolet);
+    background-image: url(../../assets/img/bg-boost-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.boost button {
+    padding: .8rem 2rem;
+}
+
+@media (max-width: 1000px) {
+    .boost {
+        background-image: url(../../assets/img/bg-boost-mobile.svg);
+    }
+
+    .boost h4 {
+        letter-spacing: 2.5px;
+    }
+}

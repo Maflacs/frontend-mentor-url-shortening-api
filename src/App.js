@@ -5,6 +5,7 @@ import ShortenLink from './components/ShortenLink/ShortenLink';
 import AdvancedStatistics from './components/AdvancedStatistics/AdvancedStatistics';
 import Footer from './components/Footer/Footer';
 import styles from './App.css';
+import Boost from './components/Boost/Boost';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <ShortenLink />
       <AdvancedStatistics />
+      <Boost />
       <Footer />
     </div>
   );

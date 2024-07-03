@@ -14,6 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 :root {
@@ -24,4 +25,13 @@ body {
   --gViolet: hsl(257, 7%, 63%);
   --vDBlue: hsl(255, 11%, 22%);
   --vDViolet: hsl(260, 8%, 14%);
+}
+
+button {
+  background-color: #2acfcf;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
 }

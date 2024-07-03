@@ -1,26 +1,157 @@
-.shortenLink {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #3b3054;
-    border-radius: 10px;
-    margin: 30px 0;
-  }
+.bg {
+  background: linear-gradient(to bottom, white 50%, var(--gray) 50%);
+}
+
+.bg2 {
+  background-color: var(--gray);
+  padding: 2rem auto;
+}
+
+.inputContainer {
+  border-radius: 10px;
+  margin: 0 7rem;
+  padding: 1rem;
+  background-color: var(--dViolet);
+  background-image: url(../../assets/img/bg-shorten-desktop.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem;
+  width: 80%;
+}
+
+input.error {
+  border: 1px solid red; 
+}
+
+input.error::placeholder {
+  color: red;
+}
+
+.shortenLink button {
+  border-radius: 5px;
+  padding: .7rem 2rem; 
+}
+
+.shortenLink button:hover {
+  background-color: #82e0e0;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin: 4rem 0 0 10.5rem;
+  position: absolute;
   
-  .shortenLink input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    flex: 1;
-    margin-right: 10px;
+}
+
+.linkList {
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0 7rem 0 7rem;
+}
+
+.linkOriginal {
+  overflow-wrap: break-word;
+  width: 50%;
+  color: var(--vDViolet);
+}
+
+.horizontalLine {
+  display: none;
+}
+
+.linkItem {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkItem span {
+  color: #3b3054;
+}
+
+.linkItem a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+button.copied {
+  background-color: var(--dViolet); 
+}
+
+button.copied:hover {
+  background-color: var(--dViolet); 
+}
+
+@media (max-width: 1000px) {
+  .inputContainer {
+    background-image: url(../../assets/img/bg-shorten-mobile.svg);
+    background-position-y: bottom;
+    background-position-x: left;
+    flex-direction: column;
+    padding: .5rem .5rem 1rem .5rem;
+    margin: 0 auto;
+    width: 90%;
   }
-  
+
+  .errorMessage {
+    margin: 3.5rem 0 0 2rem;
+  }
+
+  input {
+    width: 95%;
+  }
+
   .shortenLink button {
-    background-color: #2acfcf;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
+    width: 95%;
   }
-  
+
+  .linkList {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  .linkItem {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .linkOriginal {
+    width: 90%;
+    margin: 0 15px;
+  }
+
+  .linkItem a {
+    margin: 0 15px;
+  }
+
+  .linkItem button {
+    margin: 0 15px;
+    width: 90%;
+  }
+
+  .horizontalLine {
+    display: block;
+    width: 100%; 
+    border: none;
+    height: 1px; 
+    background-color: var(--gray); 
+  }
+}

@@ -2,7 +2,7 @@
 
 - Solution URL: https://github.com/Maflacs/frontend-mentor-url-shortening-api
 
-- Live Site URL: ...
+- Live Site URL: https://maflacs.github.io/frontend-mentor-url-shortening-api/
 
 
 ### Built with
@@ -10,6 +10,7 @@
 - HTML5 
 - CSS 
 - Flexbox
+- API
 
 
 ## Author

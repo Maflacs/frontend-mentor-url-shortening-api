@@ -47,7 +47,7 @@ input.error::placeholder {
 .errorMessage {
   color: red;
   font-size: 12px;
-  margin: 4rem 0 0 10.5rem;
+  margin: 5.5rem 0 0 11rem;
   position: absolute;
   
 }
@@ -109,7 +109,7 @@ button.copied:hover {
   }
 
   .errorMessage {
-    margin: 3.5rem 0 0 2rem;
+    margin: 4.5rem 0 0 4rem;
   }
 
   input {

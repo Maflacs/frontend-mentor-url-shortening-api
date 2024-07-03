@@ -24,7 +24,7 @@ input {
   border: none;
   border-radius: 5px;
   margin: 1rem;
-  width: 80%;
+  width: 85%;
 }
 
 input.error {
@@ -47,7 +47,7 @@ input.error::placeholder {
 .errorMessage {
   color: red;
   font-size: 12px;
-  margin: 5.5rem 0 0 11rem;
+  margin: 5.5rem 0 0 10rem;
   position: absolute;
   
 }

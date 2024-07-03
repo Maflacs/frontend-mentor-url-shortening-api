@@ -21,13 +21,13 @@
   }
   
   .hero h1 {
-    font-size: 64px;
+    font-size: 70px;
     line-height: 4rem;
     margin-bottom: 0;
   }
   
   .hero p {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 30px;
     color: var(--gViolet);
     margin-top: 0;
@@ -35,8 +35,8 @@
   
   .getStarted {
     padding: 10px 20px;
-    width: 7rem;
-    font-size: 14px;
+    width: 9rem;
+    font-size: 20px;
   }
 
   .getStarted:hover {

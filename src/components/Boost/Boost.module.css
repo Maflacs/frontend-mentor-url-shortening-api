@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
     padding: 3rem 0;
+    position: relative;
+    margin-top: 39rem;
 }
 
 h4 {
@@ -23,6 +25,7 @@ h4 {
 @media (max-width: 1000px) {
     .boost {
         background-image: url(../../assets/img/bg-boost-mobile.svg);
+        margin-top: 78rem;
     }
 
     .boost h4 {
